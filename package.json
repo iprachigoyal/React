@@ -1,0 +1,28 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "react basics",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iprachigoyal/React.git"
+  },
+  "author": "prachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iprachigoyal/React/issues"
+  },
+  "homepage": "https://github.com/iprachigoyal/React#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
