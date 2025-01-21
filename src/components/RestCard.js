@@ -9,8 +9,10 @@ const RestCard = (props) => {
     avgRatingString,
     sla,
   } = resData?.info;  
+
+  console.log(resData);
   return (
-    <div className="m-4 p-4 w-[250px] bg-gray-100 rounded-lg hover:bg-gray-200">
+    <div data-testid ="resCard" className="m-4 p-4 w-[250px] bg-gray-100 rounded-lg hover:bg-gray-200">
       <img
         className="rounded-lg"
         src={CDN_URL + cloudinaryImageId}
